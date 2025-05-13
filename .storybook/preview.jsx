@@ -1,4 +1,6 @@
-import { View } from "react-native";
+import { View } from 'react-native';
+
+import { colors } from '@themes';
 
 /** @type{import("@storybook/react").Preview} */
 const preview = {
@@ -16,8 +18,7 @@ const preview = {
       <View
         style={{
           flex: 1,
-          backgroundColor:
-            parameters.noBackground === true ? undefined : "#26c6da",
+          backgroundColor: parameters.noBackground === true ? undefined : colors.black,
           padding: 8,
         }}
       >

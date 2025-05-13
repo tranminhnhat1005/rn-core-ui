@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.nhattran.core.ui"
+    },
+    "ios": {
+      "bundleIdentifier": "com.nhattran.core.ui"
+    }
+  }
+}
